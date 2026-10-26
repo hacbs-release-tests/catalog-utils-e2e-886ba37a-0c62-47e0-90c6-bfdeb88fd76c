@@ -157,7 +157,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: apply-mapping
-      image: quay.io/konflux-ci/release-service-utils@sha256:d71bef59998250e74a94452204c957eb5cf5f55e0d20aafb8d1c112ceff3aa3b
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:f650861f815ca1e635109f39cb25df22cd452d5ef694539183baf05faa73ab61
       computeResources:
         limits:
           memory: 128Mi
